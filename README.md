@@ -1,7 +1,7 @@
-#Counter
-###PHP计数器，可以用来记录访问次数统计、相册计数、评论计数等。
+# Counter
+### PHP计数器，可以用来记录访问次数统计、相册计数、评论计数等。
 
-####使用实例
+#### 使用实例
 ```php
 <?php
 $c = new Counter();
@@ -14,7 +14,7 @@ $c->Decr('num'); //返回99
 ?>
 ```
 
-####源码说明
+#### 源码说明
 ```php
 <?php
 /**
@@ -78,6 +78,6 @@ class Counter
 ?>
 ```
 
-####关于作者
+#### 关于作者
 [<eric@lishengcn.cn>](http://www.lishengcn.cn) 
 
